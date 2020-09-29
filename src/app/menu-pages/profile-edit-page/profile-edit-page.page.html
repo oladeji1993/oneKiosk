@@ -1,0 +1,38 @@
+<div class="back">
+  <ion-icon class="btnn" (click)="back()" name="chevron-back-outline"></ion-icon>
+</div>
+<ion-content>
+  <div class="background">
+    <div>
+      <img src="assets/Icons.png"/>
+      
+    </div>
+  </div>
+  <div class="face">
+    <img src="assets/face.png"/>
+    <div class="name"><ion-icon name="create-outline"></ion-icon></div>
+  </div>
+
+  <div class="input">
+
+    <ion-item lines="none">
+      <ion-label position="floating">Name</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <br/>
+    <ion-item lines="none" class="input2">
+      <ion-input type="text" placeholder="Other name"></ion-input>
+    </ion-item>
+    <br/>
+    <ion-item lines="none" class="input2">
+      <ion-input  type="text" placeholder="Email"></ion-input>
+    </ion-item>
+    <br/>
+    <ion-item lines="none" class="input2">
+      <ion-input type="text" placeholder="Phone Number"></ion-input>
+    </ion-item>
+  </div>
+  <div class="btn">
+    <ion-button (click)="goToHome()" expand="block">SAVE</ion-button>
+  </div>
+</ion-content>

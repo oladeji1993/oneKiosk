@@ -1,0 +1,19 @@
+<div class="pattern">
+  <img src="assets/Pattern.png">
+</div>
+<ion-button class="btnn" (click)="back()" fill="clear" ><ion-icon name="chevron-back-outline"></ion-icon></ion-button>
+<ion-content>
+  <div class="header pl-20 pt-40" >
+    <h1>Reset Password</h1>
+    <ion-item lines="none">
+      <ion-input type="text" placeholder="New password"></ion-input>
+      <ion-icon name="eye-off-outline"></ion-icon>
+    </ion-item>
+    <br>
+    <ion-item lines="none">
+      <ion-input type="text" placeholder="Confirm new password"></ion-input>
+      <ion-icon name="eye-off-outline"></ion-icon>
+    </ion-item>
+  </div>
+  <ion-button (click)="lauchModal()" class="reset" expand="block">Reset</ion-button>
+</ion-content>

@@ -1,0 +1,100 @@
+.back-btn{
+    position:relative;
+    top:37px;
+    ion-icon{
+        color:#000;
+    }
+    
+}
+.header{
+    margin-top:15%;
+    color:#FF9115;
+    font-weight:bold;
+
+    p{
+        font-size:13.5px;
+        color:#7A869A;
+        font-weight:lighter;
+        padding-bottom: 30px;
+    }
+}
+
+ion-item{
+    border:1px solid gray;
+    margin-right: 35px;
+    border-radius:5px;
+    height:50px;
+    font-size:15px;
+    padding: 0%;
+    font-weight: lighter;
+
+    ion-icon{
+        color:gray
+    }
+}
+p{
+    color:gray;
+    line-height: 0.6cm;
+    font-weight: lighter;
+}
+
+.forward{
+    padding-right:45px;
+    width:100%;
+}
+
+
+ion-col{
+    padding: 5px 0px;
+}
+
+ion-icon{
+    padding:8px 0px
+}
+
+ion-button{
+    height:50px;
+}
+
+.send{
+    padding:0px;
+    margin-left:0px;
+}
+
+ion-grid{
+    padding:0px;
+}
+
+ion-grid p{
+    font-size:10px;
+    padding-top:0px;
+    margin-top:0px;
+  
+}
+
+.resend ion-button{
+    font-size:10px;
+}
+
+.pattern{
+    width:100%;
+
+    img{
+        width:100%;
+    }
+}
+
+
+.btnn {
+    position: absolute;
+    top: 5%;
+    /* background: red; */
+    z-index: 999;
+    color:black;
+}
+
+.Address{
+    margin-top:60%;
+    padding: 0px 30px;
+    border-radius:20px;
+}

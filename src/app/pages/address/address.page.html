@@ -1,0 +1,30 @@
+<div class="pattern" >
+  <img src="assets/Pattern.png ">
+</div>
+<ion-button class="btnn" (click)="back()" fill="clear" ><ion-icon name="chevron-back-outline"></ion-icon></ion-button>
+
+<ion-content>
+  <div class="header pl-20 pt-30" >
+    <h1>Address</h1>
+    <p>Add location details</p>
+    <ion-item lines="none">
+      <ion-input type="text" placeholder="Country"></ion-input>
+      <ion-button fill="clear"><ion-icon name="caret-down-circle-outline"></ion-icon></ion-button>
+    </ion-item>
+    <br>
+    <ion-item lines="none">
+      <ion-input type="text" placeholder="State"></ion-input>
+      <ion-button fill="clear"><ion-icon name="caret-down-circle-outline"></ion-icon></ion-button>
+    </ion-item>
+    <br>
+    <ion-item lines="none">
+      <ion-input type="text" placeholder="City/Town"></ion-input>
+      <ion-button fill="clear"><ion-icon name="caret-down-circle-outline"></ion-icon></ion-button>
+    </ion-item>
+    <br>
+    <ion-item lines="none">
+      <ion-input type="text" placeholder="Home Address"></ion-input>
+    </ion-item>
+  </div>
+  <ion-button (click)="goToSuccess()" class="Address" expand="block">Sign Up</ion-button>
+</ion-content>

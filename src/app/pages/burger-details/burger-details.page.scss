@@ -1,0 +1,164 @@
+
+.btnn {
+    // position: absolute;
+    // top: 7%;
+    /* background: red; */
+    z-index: 999;
+    color:black;
+}
+
+.dash-head{
+    margin-top:50px;
+    padding: 0px 0px;
+    display:flex;
+
+    img{
+        
+    padding-top:12px;
+    padding-right:20px;
+        
+    }
+   
+
+    .name{
+        font-weight:bold;
+        font-size:17px;
+        padding-top:15px;
+        padding-left:15px;
+        width:65%;
+        color:#FF9115;
+    }
+
+
+ 
+    ion-button{
+        padding-top:3px;
+        margin-right:0px;
+        font-size:12px;
+        color:black;
+        
+    }
+    
+    .Simg{
+        padding-left:50px;
+        img{
+            width:13%;
+            height:10%;
+            padding-top:10px;
+            
+        }
+    }
+
+}
+
+.burger{
+    text-align:center;
+    padding: 10px 11px;
+    img{
+        
+
+    }
+}
+
+.container{
+    padding-left:35px;
+
+    .header{
+        font-size:45px;
+        color: #013A4D;
+        font-weight:bold;
+    }
+    .description{
+        color: #013A4D;
+        font-weight:bold;
+    }
+
+    .star{
+        display:flex;
+        ion-icon{
+            margin:3px;
+        }
+        
+    }
+
+    .digit{
+        padding-left:3px;
+        padding-top:6px;
+        font-size:12px;
+        color: #013A4D;
+    }
+}
+
+
+.content{
+    h4{
+        font-size:18px;
+        color: #013A4D;
+        font-weight:bold;
+    }
+
+    .lorem{
+        padding-right:13px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: -0.28px;
+    }
+}
+
+.round{
+    padding-top:20px;
+    margin-left:40px;
+    // // margin:10px 10px;
+    // font-size:18px;
+    // width:100%;
+    display:flex;
+
+    ion-button{
+        // padding-left:50px;
+        border-radius:20px;
+    }
+
+    .shift{
+        border: 1px solid #FF9115;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        font-size: 10px;
+        border-radius: 20px;
+        height: 45px;
+        width: 35%;
+
+       
+    }
+
+    .minus{
+        padding-right:16px;
+        margin-left:20px;
+    }
+
+    .digit{
+        padding-right:0px;
+    }
+
+    .cart-btn{
+        padding-left:40px;  
+        ion-button{
+
+            border-radius:20px;
+            background-color:#FF9115;
+            color:white; 
+            padding:10px 15px; 
+            padding-right:10px;
+            
+        }
+    }
+}
+
+.checkout{
+    text-align: center;
+    padding-top:10px;
+}
+
+

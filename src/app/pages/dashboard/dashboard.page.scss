@@ -1,0 +1,155 @@
+.container{
+    background: #FF9115;
+}
+
+.header{
+    img{
+        margin-top:50px;
+        margin-left:50px;
+        border-radius:50%   
+    }
+}
+
+.name{
+    margin-top:12px;
+    display:flex;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left:50px;
+    color: #FFFFFF;
+
+
+    ion-icon{
+        margin-left:110px;
+        color:#fff
+    }
+
+}
+
+.number{
+    padding-top:8px;
+    padding-bottom:15px;
+    margin-left:50px;
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.content{
+    margin-left:20px;
+    margin-top:4px;
+    .item1{
+        padding-top:5px;
+        padding-left:10px;
+        font-weight: lighter;
+        font-size: 16px;
+        letter-spacing:0.03cm;
+        color: #222B45;
+     }
+    .notifications{
+        padding-top:20px;
+        display:flex;
+        color:#222B45;
+        font-size:15px;
+        padding-bottom:6px;
+        
+
+
+        .icon1{
+            background: #32A61F;
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+        }
+        
+        .icon2{
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+            background: #FF9115;
+
+        }
+
+        .icon3{
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+            background: #FF0000;
+
+        }
+
+        .icon4{
+            background: #6B009D;
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+        }
+
+        .icon5{
+            background: #9D0505;
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+
+        }
+
+        .icon6{
+            background: #1D90DB;
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+        }
+
+        .icon7{
+            background: #8365FF;
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+
+        }
+
+        .icon8{
+            background: #525252;
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+        }  
+        
+        .icon9{
+            background: #FD2B2B;
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+
+        }
+
+        .icon10{
+            background: #8365FF;
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+        }
+        
+        .icon11{
+            background: #013A4D;
+            padding:3px;
+            font-size:20px;
+            color:white;
+            border-radius: 4px;
+        }
+
+    }   
+   
+}

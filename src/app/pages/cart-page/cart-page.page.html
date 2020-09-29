@@ -1,0 +1,73 @@
+<div class="dash-head">
+  <ion-button class="btnn" (click)="back()" fill="clear" ><ion-icon name="chevron-back-outline"></ion-icon></ion-button>
+  <div class="name">Cart</div>
+   <ion-button fill="clear"><ion-icon name="search-outline"></ion-icon></ion-button>
+  
+  <div class="simg">
+    <img src="assets/Group 14.png">
+  </div>
+</div>
+<ion-content>
+  
+  <div class="item">
+    <div class="item-child">
+      <img src="assets/spicy.png"/>
+      <div class="item-container">
+        <div class="container-child">
+          <div class="item-name">Burger</div>
+          <div class="cancel">X</div>
+        </div>
+        <div class="super">Supermart</div>
+        <div class="price-flex">
+          <div class="item-price">N1750</div>
+          <div class="item-controller">
+            <div class="minus">-</div>
+            <div class="number">02</div>
+            <div class="plus">+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="border">
+    <div class="line">
+
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <div class="price">
+        <div class="subtotal">Subtotal</div>
+        <div class="digit">N3500</div>
+      </div>
+    </div>
+    
+    <div>
+      <div class="price1">
+        <div class="subtotal1">Delivery</div>
+        <div class="digit1">Free</div>
+      </div>
+    </div>
+    
+    
+    <div class="btn">
+      <div class="promo-btn">
+        <ion-button fill="clear" expand="block">Enter promo code</ion-button>
+      </div>
+      <div class="coupon">
+        <ion-button  fill="clear" expand="block">APPLY COUPON</ion-button>
+      </div>
+    </div>
+    
+    <div>
+      <div class="price3">
+        <div class="subtotal3">Total:</div>
+        <div class="digit3">N3500</div>
+      </div>
+    </div>
+    <div class="btn2">
+      <ion-button (click)="goToCheckOut()">Proceed to checkout</ion-button>
+    </div>
+  </div>
+</div>
+</ion-content>

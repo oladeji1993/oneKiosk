@@ -1,0 +1,89 @@
+.pattern{
+    width:100%;
+
+    img{
+        width:100%;
+    }
+}
+
+
+
+.btnn {
+    position: absolute;
+    top: 5%;
+    /* background: red; */
+    z-index: 999;
+    color:black;
+}
+
+
+.header{
+    margin-top:15%;
+    color:#FF9115;
+    font-weight:bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+}
+
+
+
+.rectangle{
+    margin: 0px 20px;
+    text-align:center;
+    position:absolute;
+
+    
+}
+.order-container{
+    position:absolute;
+    margin:30px;
+    margin-left:55px;
+    width:72%;
+   
+    padding-bottom:13px;
+
+    .order-child{
+        display:flex;
+        padding-top:20px;
+
+        .name{
+            width:70%;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            color: #013A4D;
+        }
+        
+        
+    }
+
+    .price{
+        // margin-left:10%;
+        // font-family: Gilroy-Regular;
+        font-size: 14px;
+        line-height: 16px;
+        color: #75788E;
+        padding-top:4px;
+    } 
+    
+    
+    .date{
+        // font-family: Gilroy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(8, 13, 45, 0.5);
+        padding-bottom:10px;
+        border-bottom:1px solid #D5D5E0;
+    }
+
+    .icon{
+        color: #013A4D;
+        margin-left:10px;
+        font-weight:bold;
+        font-size:20px;
+        padding-top:2px;
+    }
+}

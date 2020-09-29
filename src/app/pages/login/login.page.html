@@ -1,0 +1,42 @@
+<ion-content>
+  <div class="whole">
+    <div class="content" >
+      <img src="assets/Group 2.png" alt="logo">
+      <p>Welcome to</p>
+      <h1>One Kiosk</h1>
+    </div>
+    <div class="input">
+      <ion-item lines="none">
+        <ion-input type="text" placeholder="Email"></ion-input>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-input type="password" placeholder="Password">
+          
+        </ion-input>
+        <ion-button fill="clear"><ion-icon name="eye-outline"></ion-icon></ion-button>
+      </ion-item>
+      
+    </div>
+    <ion-button (click)="goToDashboard()" class="signUp" expand="block">Sign in </ion-button>
+    <div class="forgot">
+      <ion-button (click)="goToReset()" fill="clear">Forgot Password</ion-button>
+    </div>
+    <div class="log">
+      <p>LOG IN WITH</p>
+    </div>
+    
+    <div class="sign-btn">
+      <ion-button class="facebook" size="small" fill="clear">Facebook </ion-button>
+      <ion-button class="google" size="small" fill="clear">Google</ion-button>
+    </div>
+
+    <div class="create">
+      <p>Don't you have an account? <span (click)="goToSign()">Create one</span></p>
+    </div>
+
+
+   
+  </div>
+  <!-- <img class="oval" src="assets/Oval (1).png" alt="oval">
+  <img class="oval" src="assets/Oval.png" alt="oval"> -->
+</ion-content>

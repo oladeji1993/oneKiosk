@@ -1,0 +1,65 @@
+<div class="dash-head">
+  <ion-button class="btnn" (click)="back()" fill="clear" ><ion-icon name="chevron-back-outline"></ion-icon></ion-button>
+  <div class="name">Checkout</div>
+   <ion-button fill="clear"><ion-icon name="search-outline"></ion-icon></ion-button>
+  
+  <div class="simg">
+    <img src="assets/Group 14.png">
+  </div>
+</div>
+<ion-content>
+  <div>
+    <div class="address">
+      Delivery address
+    </div>
+
+    <div class="phone">
+      <div class="name">Darik ayeni</div>
+      <div class="change">
+        <div class=number>+23408165573467</div>
+        <ion-button fill="clear" expand="block">CHANGE ADDRESS</ion-button>
+      </div>
+      <div>57, Market Street, Shomolu, Lagos </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="line">
+
+    </div>
+  </div>
+
+  <div>
+    <div class="method">
+      Payment method
+    </div>
+    <div class="delivery">Pay On Delivery</div>
+    <div class="card">Pay with Debit or Credit  card online</div>
+  </div>
+
+
+  <div>
+    <div class="price">
+      <div class="subtotal">Subtotal</div>
+      <div class="digit">N3500</div>
+    </div>
+  </div>
+
+  <div>
+    <div class="price1">
+      <div class="subtotal1">Delivery</div>
+      <div class="digit1">Free</div>
+    </div>
+  </div>
+
+  <div>
+    <div class="price3">
+      <div class="subtotal3">Total:</div>
+      <div class="digit3">N3500</div>
+    </div>
+  </div>
+
+  <div class="btn2">
+    <ion-button (click)="goToCartSuccess()" size="default">CONFIRM PAYMENT</ion-button>
+  </div>
+</ion-content>

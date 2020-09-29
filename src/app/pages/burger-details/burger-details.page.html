@@ -1,0 +1,54 @@
+<div class="dash-head">
+  <ion-button class="btnn" (click)="back()" fill="clear" ><ion-icon name="chevron-back-outline"></ion-icon></ion-button>
+  <div class="name">Burger</div>
+   <ion-button fill="clear"><ion-icon name="search-outline"></ion-icon></ion-button>
+  
+  <div class="simg">
+    <img src="assets/Group 14.png">
+  </div>
+</div>
+<ion-content>
+  <div class="burger">
+    <img src="assets/burgers-3.png"/>
+  </div>
+
+  <div class="container">
+    <div class="header">Burger</div>
+    <div class="description">Super Mart</div>
+    <div (click)="goToreview()" class="star">
+      <ion-icon color="primary" name="star"></ion-icon>
+      <ion-icon color="primary" name="star"></ion-icon>
+      <ion-icon color="primary" name="star"></ion-icon>
+      <ion-icon color="primary" name="star"></ion-icon>
+      <ion-icon color="black" name="star-outline"></ion-icon>
+      <div class="digit">4.6(248 Reviews)</div>
+    </div>
+    
+
+    <div class="content">
+      <h4>Description</h4>
+      <div class="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Repellat explicabo ducimus similique unde nulla laborum 
+        rerum tempora incidunt, voluptate voluptatum eveniet quidem, doloribus 
+        nobis! Quam reiciendis nobis repellat distinctio ad.
+      </div>
+    </div>
+  </div>
+
+  <div class="round">
+    <div class="shift">
+      <div class="minus">-</div>
+      <div class="digit">02</div>
+      <div class="minus">+</div>
+      
+    </div>
+    <div class="cart-btn">
+      <ion-button size="default" fill="clear" expand="block" >Add Cart</ion-button>
+    </div>
+  </div>
+
+  <div (click)="goToCart()" class="checkout">
+    <ion-button>Proceed to Checkout</ion-button>
+  </div>
+</ion-content>

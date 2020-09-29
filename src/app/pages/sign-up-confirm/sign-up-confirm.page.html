@@ -1,0 +1,31 @@
+
+<div class="pattern">
+  <img src="assets/Pattern.png">
+</div>
+<ion-button class="btnn" (click)="back()" fill="clear" ><ion-icon name="chevron-back-outline"></ion-icon></ion-button>
+<ion-content>
+    <div class="header pl-20 pt-40" >
+      <h1>Confirmation</h1>
+      <p>Enter the 6 digits code we sent to your<br> Phone Number and Email to continue </p>
+
+      <div class="forward">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="10">
+              <ion-item class="email" lines="none">
+                <ion-input type="text" placeholder="Confirmation Code"></ion-input>
+              </ion-item>
+            </ion-col>
+            <ion-col size="2" class="send">
+              <ion-button (click)="goToAdress()"><ion-icon  name="chevron-forward-outline"></ion-icon></ion-button>
+            </ion-col>
+           
+          </ion-row>
+          <p>Resend the code can be in 30 seconds</p>
+          <!-- <div class="resend">
+            <ion-button fill="clear">Resend the code can be in 30 seconds</ion-button> 
+          </div>  -->
+      </ion-grid>  
+    </div>
+  </div>
+</ion-content>

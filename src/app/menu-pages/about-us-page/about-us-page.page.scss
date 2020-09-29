@@ -1,0 +1,27 @@
+.pattern{
+    width:100%;
+
+    img{
+        width:100%;
+    }
+}
+
+
+
+.btnn {
+    position: absolute;
+    top: 5%;
+    /* background: red; */
+    z-index: 999;
+    color:black;
+}
+
+
+.header{
+    margin-top:15%;
+    color:#FF9115;
+    font-weight:bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+}

@@ -1,0 +1,47 @@
+<div class="pattern">
+  <img src="assets/Pattern.png">
+</div>
+<ion-button class="btnn" (click)="back()" fill="clear" ><ion-icon name="chevron-back-outline"></ion-icon></ion-button>
+<div class="header pl-20 pt-40" >
+  <h1>My Locations</h1>
+</div>
+<ion-content>
+  <div class="border">
+      <div class="rectangle">
+          <div>
+              <img src="assets/plainRectangle.png"/>
+          </div>
+      </div>      
+  </div>
+  <div class="content">
+    <div class="container">
+      <div class="home">
+        <div class="home-child">
+          <img src="assets/home.png"/>
+          <div class="home-content">Home</div>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+        <div class="home-child2">
+          <div class="home2-content">57, market street, Shomolu lagos.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="home">
+        <div class="home-child">
+          <img src="assets/bag.png"/>
+          <div class="home-content">Office</div>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+        <div class="home-child2">
+          <div class="home2-content">57, market street, Shomolu lagos.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-address">
+    <ion-button expand="full" (click)="goToAdress()">ADD NEW ADDRESS</ion-button>
+  </div>
+</ion-content>

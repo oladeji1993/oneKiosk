@@ -1,0 +1,81 @@
+<ion-split-pane contentId="dashboard">
+  <ion-menu side="start" disabled="false" menuId="dashboard-menu" contentId="dashboard">
+    <ion-content>
+      <div class="container">
+        <div class="header">
+          <img src="assets/menu-icon.png"/>
+          <div (click)="goToProfile()" class="name">
+            <div>Darik Ayeni</div>
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+          <div class="number">
+            <div>234-816-557-3487</div>
+          </div>  
+        </div>
+      </div>
+      
+
+      
+      <div class="content">
+        <div class="notifications">
+          <ion-icon class="icon1" name="notifications-outline"></ion-icon>
+          <div (click)="goToNotification()" class="item1">Notifications</div>
+        </div>
+
+        <div class="notifications">
+          <ion-icon class="icon2" name="print-outline"></ion-icon>
+          <div class="item1">Get your store listed</div>
+        </div>
+
+        <div class="notifications">
+          <ion-icon class="icon3" name="location-outline"></ion-icon>
+          <div (click)="goToLocation()" class="item1">My Location</div>
+        </div>
+
+        <div class="notifications">
+          <ion-icon class="icon4" name="wallet-outline"></ion-icon>
+          <div class="item1">My Payment</div>
+        </div>
+
+        <div class="notifications">
+          <ion-icon class="icon5" name="cart-outline"></ion-icon>
+          <div (click)="goToOrder()" class="item1">Orders</div>
+        </div>
+
+        <div class="notifications">
+          <ion-icon class="icon6" name="share-social-outline"></ion-icon>
+          <div class="item1">Share</div>
+        </div>
+
+        <div class="notifications">
+          <ion-icon class="icon7" name="chatbubble-ellipses-outline"></ion-icon>
+          <div (click)="goToHelp()" class="item1">Help</div>
+        </div>
+
+        
+        <div class="notifications">
+          <ion-icon class="icon8" name="newspaper-outline"></ion-icon>
+          <div (click)="goToPrivacy()" class="item1">Privacy Policy</div>
+        </div>
+
+        <div class="notifications">
+          <ion-icon class="icon9" name="settings-outline"></ion-icon>
+          <div (click)="goToSettings()" class="item1">Settings</div>
+        </div>
+        
+
+        
+        <div class="notifications">
+          <ion-icon class="icon10" name="information-outline"></ion-icon>
+          <div (click)="goToAbout()" class="item1">About One Kiosk</div>
+        </div>
+
+        <div class="notifications">
+          <ion-icon class="icon11" name="log-out-outline"></ion-icon>
+          <div (click)="goToLogin()" class="item1">Log out</div>
+        </div>
+      </div>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="dashboard"></ion-router-outlet>
+</ion-split-pane>

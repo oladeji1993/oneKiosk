@@ -1,0 +1,105 @@
+.background{
+    position:absolute;
+}
+
+.face{
+    position:relative;
+    margin-top:80px;
+    margin-left:100px;
+    
+    img{
+        border-radius:50%;
+    }
+
+    .name{
+        margin-top:10px;
+        margin-left:35px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        color: #013A4D;
+    }
+}
+
+.content{
+    margin-top:40px;
+    margin-left:20px;
+
+    .contact{
+        color: #FF9115;
+    }
+}
+
+.number{
+    margin-top:22px;
+    margin-left:20px;
+    font-size:15px;
+    display:flex;
+    font-weight:lighter;
+    ion-icon{
+        background: #013A4D;
+        padding:5px;
+        color:white;
+        border-radius:50%; 
+        font-size:15px;  
+    }
+
+    .phone{
+        padding-top:5px;
+        margin-left:10px;
+    }
+
+}
+
+.container{
+    padding-top:20px;
+    margin-left:20px;
+    font-size:15px;
+    display:flex;
+    font-weight:lighter;
+    
+    ion-icon{
+        background: #013A4D;
+        padding:5px;
+        color:white;
+        border-radius:50%; 
+        font-size:15px;  
+    }
+
+    .line{
+        border-bottom: 2px solid rgb(107, 102, 102);
+        margin-top:20px;
+        width:100%;
+    }
+
+    
+    .email{
+        padding-top:5px;
+        margin-left:10px;
+    }
+
+}
+
+.line{
+    border-bottom: 2px solid rgb(228, 225, 225);
+    margin: 0px 22px;
+    margin-top:10px;
+   
+    margin-bottom:160px;
+}
+
+ion-button{
+    margin: 0px 20px;
+}
+
+.back{
+
+    .btnn {
+        position: absolute;
+        top: 7%;
+        margin-left:20px;
+        /* background: red; */
+        z-index: 999;
+        color:black;
+    }
+}
